@@ -3,7 +3,7 @@ tidy_data
 
 tidy data final assignment
 
-This github repository holds an R script (run_analysis.R) that will download data from the UCI Machine Learning repository. This data was used to train a support vector machine to recognize human activity using measurement from a smart phone.
+This github repository holds an R script (run_analysis.R) that will download data from the UCI Machine Learning repository. This data was used to train a support vector machine to recognize human activity using measurements from a smartphone.
 
 See this link for some background information
 http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/
@@ -26,3 +26,6 @@ Rscript run_analysis.R
 
 The 'tidy' dataset can be read in to R with the following command
 data <- read.delim("jlivingstone_tidy_data_final_assign.txt", sep = "\t", as.is=T, check.names=F)
+
+The following thread was helpful in the creation of this repository
+https://class.coursera.org/getdata-007/forum/thread?thread_id=49
