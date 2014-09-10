@@ -42,5 +42,8 @@ test_c = combination of subject id, activity label and data measurements
 train_c = combination of subject id, activity label and data measurements
   matrix with dimensions 7352 by 563
   
-all = contains both training and testing data, with activity and subject labels
-  matrix with dimensions 10299 563
+all = contains both training and testing data, with activity and subject labels, filtered to contain measurement of mean and standard deviation
+  matrix with dimensions 10299 88
+  
+
+
