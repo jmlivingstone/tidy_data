@@ -20,7 +20,7 @@ strain <- read.delim("UCI HAR Dataset/train/subject_train.txt", header=F)[,1]
 stest <- read.delim("UCI HAR Dataset/test/subject_test.txt", header=F)[,1]
 
 # create column with activity labels
-ytrain <- read.delim("UCI HAR Dataset/train/y_train", header=F)[,1]
+ytrain <- read.delim("UCI HAR Dataset/train/y_train.txt", header=F)[,1]
 ytest <- read.delim("UCI HAR Dataset/test/y_test.txt", header=F)[,1]
 
 # create column with subject information
