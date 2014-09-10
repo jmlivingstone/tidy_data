@@ -33,7 +33,7 @@ colnames(test_c)[2] <- colnames(train_c)[2] <- "activity"
 all <- rbind(test_c, train_c)
 
 # gather only columns that have information about mean and standard deviation metrics (step 2)
-all <- all[,c(1,2,grep(paste(c("[mM]ean","std"),collapse="|"), colnames(all))]
+all <- all[,c(1,2,grep(paste(c("[mM]ean","std"),collapse="|"), colnames(all)))]
 
 # annotate activity labels with descriptive variable names (step 3)
 all$activity <- c("walking", "walking_upstairs", "walking_downstairs", "sitting", "standing", "laying")[match(all$activity, c(1,2,3,4,5,6))]
