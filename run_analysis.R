@@ -27,7 +27,7 @@ ytest <- read.delim("UCI HAR Dataset/test/y_test.txt", header=F)[,1]
 train_c <- cbind(strain, ytrain, train)
 test_c <- cbind(stest, ytest, test)
 colnames(test_c)[1] <- colnames(train_c)[1] <- "subject"
-colnames(test_c)[1] <- colnames(train_c)[2] <- "activity"
+colnames(test_c)[2] <- colnames(train_c)[2] <- "activity"
 
 # combine test and training data into one (step 1)
 all <- rbind(test_c, train_c)
