@@ -1,7 +1,3 @@
-I am not really sure what this is supposed to be
-
-Please see comments in run_analysis.R for what was done to the data
-
 List of variable created in run_analysis.R
 
 file = name of zip file that data was downloaded to
@@ -20,3 +16,31 @@ strain = holds subject ids from training set
 stest = holds subject ids from testing set
   vector of length 2947
   
+ytrain = holds activity id of training set
+  vector of lenth 7352
+
+  1 WALKING
+  2 WALKING_UPSTAIRS
+  3 WALKING_DOWNSTAIRS
+  4 SITTING
+  5 STANDING
+  6 LAYING
+
+ytest = holds activity id of testing set
+  vector of length 2947
+  
+  1 WALKING
+  2 WALKING_UPSTAIRS
+  3 WALKING_DOWNSTAIRS
+  4 SITTING
+  5 STANDING
+  6 LAYING
+  
+test_c = combination of subject id, activity label and data measurements
+  matrix with dimensions 2947 by 563
+
+train_c = combination of subject id, activity label and data measurements
+  matrix with dimensions 7352 by 563
+  
+all = contains both training and testing data, with activity and subject labels
+  matrix with dimensions 10299 563
