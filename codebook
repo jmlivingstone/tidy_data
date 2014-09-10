@@ -45,5 +45,8 @@ train_c = combination of subject id, activity label and data measurements
 all = contains both training and testing data, with activity and subject labels, filtered to contain measurement of mean and standard deviation
   matrix with dimensions 10299 88
   
+step5 = average of measurements grouped by activity and subject
+  matrix with dimensions 180 88
+  
 
 
