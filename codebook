@@ -2,4 +2,21 @@ I am not really sure what this is supposed to be
 
 Please see comments in run_analysis.R for what was done to the data
 
-file
+List of variable created in run_analysis.R
+
+file = name of zip file that data was downloaded to
+train = holds training data from study
+  matrix with dimensions 7352 by 561
+  
+test = hold testing data from study
+  matrix with dimensions 2947 by 561
+  
+features = measurement labels
+  vector of 561  
+
+strain = holds subject ids from training set
+  vector of length 7352
+  
+stest = holds subject ids from testing set
+  vector of length 2947
+  
